@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scroll" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:id="@+id/line1_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_line1_number"/>
+		<TextView android:id="@+id/device_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_device_id"/>
+		<TextView android:id="@+id/device_software_version" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_device_software_version"/>
+		<TextView android:id="@+id/sim_serial_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_sim_serial_number"/>
+		<TextView android:id="@+id/subscriber_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_subscriber_id"/>
+		<TextView android:id="@+id/voicemail_alpha_tag" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_voicemail_alpha_tag"/>
+		<TextView android:id="@+id/voicemail_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_voicemail_number"/>
+		<!--
+		<TextView android:id="@+id/" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=": "/>
+		<TextView android:id="@+id/" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=": "/>
+		<TextView android:id="@+id/" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=": "/>
+		<TextView android:id="@+id/" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=": "/>
+		-->
+	</LinearLayout>
+</ScrollView>

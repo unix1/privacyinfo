@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android" android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TabWidget android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<ScrollView android:id="@+id/scroll" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<LinearLayout android:id="@+id/tab_telephony" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<TextView android:id="@+id/call_state" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_call_state"/>
+					<TextView android:id="@+id/data_activity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_data_activity"/>
+					<TextView android:id="@+id/data_state" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_data_state"/>
+					<TextView android:id="@+id/network_country_iso" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_network_country_iso"/>
+					<TextView android:id="@+id/network_operator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_network_operator"/>
+					<TextView android:id="@+id/network_operator_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_network_operator_name"/>
+					<TextView android:id="@+id/network_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_network_type"/>
+					<TextView android:id="@+id/phone_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_phone_type"/>
+					<TextView android:id="@+id/sim_country_iso" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_sim_country_iso"/>
+					<TextView android:id="@+id/sim_operator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_sim_operator"/>
+					<TextView android:id="@+id/sim_operator_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_sim_operator_name"/>
+					<TextView android:id="@+id/sim_state" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_sim_state"/>
+					<TextView android:id="@+id/has_icc_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_has_icc_card"/>
+					<TextView android:id="@+id/is_network_roaming" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_is_network_roaming"/>
+					<!-- <TextView android:id="@+id/" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=": "/> -->
+				</LinearLayout>
+			</ScrollView>
+			<LinearLayout android:id="@+id/tab_other" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<TextView android:id="@+id/am_memory_class" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/list_memory_class"/>
+				<!--
+				<TextView android:id="@+id/" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=": "/>
+				<TextView android:id="@+id/" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=": "/>
+				<TextView android:id="@+id/" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=": "/>
+				-->
+			</LinearLayout>
+
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>
